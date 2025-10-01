@@ -8,9 +8,27 @@
 <body>
     <h1> check box </h1>
     <p>약관에 동의 합니까 ? </p>
-    <input />
-    <p>
-
+    <input type="checkbox" id="chk-agree"/>
+    <button id="btn-submut" >제출</button>
+    <p id="txt-result">
+    
     </p>
+
+    <script>
+        var chkAgree = document.getElementById("chk-agree")
+        var btnsubmit = document.getElementById("btn-submit")
+        var txtResult = document.getElementById("txt-result")
+        document.addEventListener('click',()=>{
+            console.log(chkAgree.checked)
+            if(chkAgree.checked == true) {
+                txtResult.innerText = "동의함"
+            }
+            else {
+                txtResult.innerText = "동의 못함"
+            }
+    
+        })
+
+    </script>
 </body>
 </html>
