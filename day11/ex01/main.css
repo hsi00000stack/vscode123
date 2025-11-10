@@ -23,10 +23,12 @@ body {
 
 .big-text {
     font-size: 64px;
+    margin: 20px;
 }
 
 .mid-text {
     font-size: 32px;
+    margin: 20px;
 }
 
 
