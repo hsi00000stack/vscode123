@@ -31,4 +31,19 @@ body {
     margin: 20px;
 }
 
+.small-text {
+    font-size: 8px;
+    margin: 20px;
+}
+
+.version{
+  position:absolute; top:18px; right:18px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+.copyright{
+  position:absolute; left:18px; bottom:18px;
+  font-size:14px; opacity:0.9;
+}
 
