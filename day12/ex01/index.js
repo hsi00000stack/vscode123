@@ -17,18 +17,17 @@ export default async function Main() {
         if (e.key == "ArrowUp") {
             currentIndex--
             if(currentIndex < 0) {
-                currentIndex = 2
+                currentIndex = 3
             }
         
         }
         else if(e.key == "ArrowDown") {
             currentIndex++
-            currentIndex %=3
+            currentIndex %=4
         }
         console.log(currentIndex)
             
-
-    })
+})
     
 
 
