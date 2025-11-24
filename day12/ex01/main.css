@@ -17,7 +17,7 @@ body {
     font-display: swap;
 }
 
-header  {
+header {
     display: flex;
     padding: 16px;
     /*background-color: yellow;
@@ -34,7 +34,7 @@ footer {
 
 main {
     display: flex;
-    flex: 1;
+    flex : 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,4 +51,8 @@ main {
 .select {
     background-color: black;
     color: white;
+}
+
+.hide {
+    display: none;
 }
